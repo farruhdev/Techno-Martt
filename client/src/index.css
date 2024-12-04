@@ -1,0 +1,19 @@
+@import "slick-carousel/slick/slick-theme.css";
+@import "slick-carousel/slick/slick.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.carousel-item {
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    background: white;
+    transition: transform 0.3s;
+}
+
+.carousel-item:hover {
+    transform: scale(1.05);
+}
